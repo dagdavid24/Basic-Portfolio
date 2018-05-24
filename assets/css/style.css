@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 24px;
+  background: url(../images/stonehaven.png);
+  background-size: cover;
+  background-position: center;
+}
+
+/* Navigation/ Area */
+#topnav {
+    overflow: hidden;
+    background-color: #ffffff;
+    border-bottom: 2px solid #dddddd;
+  }
+#topnav h1.name {
+    float: left;
+    background: #4aaaa5;
+    padding: 30px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    margin-left: 240px;
+  }
+#topnav a {
+  float: right;
+  color: #777777;
+  text-align: center;
+  padding: 23px;
+  padding-top: 31px;
+  text-decoration: none;
+  font-size: 15px;
+}
+#topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  height: 85px;
+}
+#topnav .topright {
+    margin-right: 240px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+/* to try to get the border around the porfolio nav
+.topnav a.border {
+    border-left: #777777 solid 0.5px;
+    border-right: #777777 solid 0.5px;
+}*/
+
+/* About Me Area */
+#aboutme {
+  clear: both;
+  overflow: auto;
+  background-color: #fff;
+  width: 960px;
+  margin-top: 50px;
+  margin-left: 240px;
+  padding: 30px;
+  border: #ddd solid 1px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+#aboutme h1 {
+    color: #4aaaa5;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    border-bottom: 2px solid #dddddd;
+    padding-bottom: 20px
+}
+#aboutme img {
+    width: 270px;
+    height: 270px;
+    float: left;
+    margin-right: 15px;
+}
+
+#aboutme p {
+  background-color: #fff;
+  color: #777;
+  line-height: 30px;
+}
+
+  /* Portfolio Area */
+  #portfolio {
+    clear: both;
+    overflow: auto;
+    background-color: #fff;
+    width: 960px;
+    margin-top: 50px;
+    margin-left: 240px;
+    padding: 30px;
+    border: #ddd solid 1px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+  #portfolio h1 {
+      color: #4aaaa5;
+      font-family: 'Georgia', 'Times New Roman', Times, serif;
+      font-weight: bold;
+      font-size: 30px;
+      border-bottom: 2px solid #dddddd;
+      padding-bottom: 20px
+  }
+  #portfolio .works img{
+    float: left;
+    width: 30%;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+
+/* Contact Area */
+.page {
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    padding: inherit;
+    width: 960px;
+    margin-top: 50px;
+    margin-left: 240px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+form {
+    background: #ffffff;
+}
+#box {
+    padding: 30px;
+}
+#box h1 {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 20px;
+    border-bottom: #dddddd 2px solid;
+}
+label {
+    color: #777;
+}
+button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 12.5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: 0;
+}
+
+/* Footer Area */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #777;
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    border-top: 6px solid #4aaaa5;
+}
